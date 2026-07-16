@@ -10,26 +10,28 @@ A structured collection of TCL (Tool Command Language) scripts organized topic-b
 
 ```
 TCL_Programing/
-.
 ├── 01_introduction
-│   └── baasic1.tcl
+│   └── baasic1.tcl
 ├── 02_variables_and_data_types
-│   └── var1.tcl
-├── 03_string_operations
-├── 04_arithmetic_and_expressions
-├── 05_control_flow
-├── 06_loops
-├── 07_procedures
-├── 08_lists
-├── 09_arrays
-├── 10_dictionaries
-├── 11_file_handling
-├── 12_regular_expressions
-├── 13_error_handling
-├── 14_packages_and_namespaces
-├── 15_advanced_topics
+│   └── var1.tcl
+├── 03_arithmetic_ops
+│   └── expr.tcl
+├── 04_conition
+│   └── if.tcl
+├── 04_loops
+│   ├── for.tcl
+│   └── while.tcl
+├── 05_array
+│   ├── array1.tcl
+│   └── array2.tcl
+├── 05_associative_array
+│   ├── as_array.tcl
+│   └── as_array1.tcl
+├── 05_for_each
+│   └── for_each1.tcl
 ├── README.md
-└── structure.sh
+├── structure.sh
+└── plan.md
 ```
 
 ---
@@ -54,12 +56,12 @@ Download and install from [https://www.activestate.com/products/tcl/](https://ww
 ### Running a Script
 
 ```bash
-tclsh 01_introduction/03_first_tcl_program.tcl
+tclsh 01_introduction/baasic1.tcl
 ```
 
 ### Auto-generate the Folder Structure
 
-A `structure.sh` script is included to recreate all folders and empty `.tcl` files:
+A `structure.sh` script is included to recreate all folders (empty `.tcl` files are not created, only folders):
 
 ```bash
 chmod +x structure.sh
@@ -70,23 +72,16 @@ chmod +x structure.sh
 
 ## 📚 Topics Covered
 
-| # | Topic | Key Concepts |
-|---|-------|-------------|
-| 01 | Introduction | What is TCL, tclsh, first program |
-| 02 | Variables & Data Types | `set`, substitution (`$`, `[]`, `\`), quotes vs braces |
-| 03 | String Operations | `string length/index/range/compare/match/trim/replace`, `append` |
-| 04 | Arithmetic & Expressions | `expr`, math/comparison/logical operators, `incr` |
-| 05 | Control Flow | `if`, `if-else`, `if-elseif-else`, `switch` |
-| 06 | Loops | `while`, `for`, `foreach`, `break`, `continue` |
-| 07 | Procedures | `proc`, arguments, return values, scope, `upvar`, recursion |
-| 08 | Lists | `lindex`, `llength`, `lappend`, `lsort`, `lsearch`, `split`, `join` |
-| 09 | Arrays | Associative arrays, `array names/size/get/set`, iteration |
-| 10 | Dictionaries | `dict create/get/set/for`, nested dicts |
-| 11 | File Handling | `open/close`, read/write/append, line-by-line, `file` commands |
-| 12 | Regular Expressions | `regexp`, `regsub`, wildcards, groups, VLSI use cases |
-| 13 | Error Handling | `catch`, `error`, `try/throw`, `errorInfo`, `errorCode` |
-| 14 | Packages & Namespaces | `source`, `package provide/require`, `namespace` |
-| 15 | Advanced Topics | `exec`, `glob`, `info`, `format/scan`, EDA tool scripting |
+| # | Directory | Topic | Key Concepts |
+|---|-----------|-------|--------------|
+| 01 | `01_introduction` | Introduction | What is TCL, `tclsh`, first program (`puts`) |
+| 02 | `02_variables_and_data_types` | Variables & Data Types | `set`, string/integer variables, `$` substitution |
+| 03 | `03_arithmetic_ops` | Arithmetic Operations | `expr`, `+ - * /`, string-to-number conversion |
+| 04 | `04_conition` | Conditionals (`if`) | `if`, `if-else`, `if-elseif-else` |
+| 05 | `04_loops` | Loops | `while`, `for`, `break`, `continue` |
+| 06 | `05_array` | Arrays (Indexed) | `set arr(index)`, `array names/size/get`, iteration |
+| 07 | `05_associative_array` | Associative Arrays | String keys, `array names/set/get`, iteration |
+| 08 | `05_for_each` | `foreach` Loop | `foreach` loop over lists |
 
 ---
 
@@ -100,5 +95,5 @@ chmod +x structure.sh
 
 ## 👤 Author
 
-**Mihir Mithani**
+**Mihir Mithani**  
 [GitHub](https://github.com/Mihir-Mithani)
