@@ -1,0 +1,125 @@
+commit e5eed80759b1e29371104a1f915ddb87f8d6b6f6
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Fri Jul 17 15:29:51 2026 +0530
+
+    Exec Command and Escape Sequence
+
+commit d774a6f48ec85cf60652893f20bbf6cc3349c2a8
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Fri Jul 17 15:08:41 2026 +0530
+
+    Searching in Array/Associative Array
+
+commit 071e0dd443bdce1b6def88178323a0b880f14c3b
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Thu Jul 16 16:55:30 2026 +0530
+
+    Updates
+
+commit 39b7879704121e6a87bc16400c9d225a7d1785bf
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Thu Jul 16 16:53:16 2026 +0530
+
+    Readme File
+
+commit 5e9d0184fff5468f1575dc75761e06548c9d216a
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Thu Jul 16 16:47:49 2026 +0530
+
+    For Each Loop
+
+commit e13fb5b6c8376ad9375d69eec7f6391101a069f9
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Thu Jul 16 16:47:25 2026 +0530
+
+    Associative Array
+
+commit 842e850f305382667b5bbcc82727c5d9b82d375a
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Thu Jul 16 16:46:49 2026 +0530
+
+    Array
+
+commit fae43993bef1a87def0253ee8fb820a9cf742413
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Thu Jul 16 16:17:42 2026 +0530
+
+    Loops
+
+commit 52082230d4a6e2a225caba21399847b8286210d8
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Thu Jul 16 16:17:27 2026 +0530
+
+    Condition
+
+commit 40cfb5da114d46ba341b8920a8409bcdaed28d08
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Thu Jul 16 15:44:41 2026 +0530
+
+    Arithmetics Operations
+
+commit d36a31288787ab68d38a597d368a7c6a2d5b0dac
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Wed Jul 15 15:06:12 2026 +0530
+
+    Plan of learning
+
+commit 59d912b75651fc556c8f916b32d309be84cdff29
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jun 23 17:29:32 2026 +0530
+
+    Readme.md
+
+commit 1f6d19861f32c60f1b1643ab5a78829e1f972cb0
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jun 23 17:26:12 2026 +0530
+
+    Structure
+
+commit 7dc5ce197a218b1b8dd46c64658ab8d17f0a273e
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jun 23 17:22:10 2026 +0530
+
+    Structure
+
+commit 4d1c312ae6d20548ddbb75f0b2b6f9ad60b526c1
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jun 23 17:11:54 2026 +0530
+
+    Basics
+
+commit 00f142c2cc6ba04b784cdcfaf24d4685dd6e8262
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jun 23 17:09:37 2026 +0530
+
+    Readme.md
+
+commit 5d4f1d6e1a12e44956028fbfa9284dbcb1068c3c
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jun 23 17:07:01 2026 +0530
+
+    Structure
+
+commit 3535f1c11c9ee697a58db91111e3ea96277f775e
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jun 23 16:54:26 2026 +0530
+
+    Readme
+
+commit 091d522d8cd9fda52388792176fe69ad1c19c167
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jun 23 16:52:57 2026 +0530
+
+    Variables Basics
+
+commit 5a70b8f4a8eba22cb24d761ef3060ddfc5213bd7
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jun 23 16:43:52 2026 +0530
+
+    Basics
+
+commit c400dd9398e21d53d70007d66120df92272be71f
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jun 23 16:43:14 2026 +0530
+
+    first commit
