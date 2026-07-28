@@ -1,10 +1,11 @@
 #!/bin/bash
 
 
-for i in {61..70}
+for i in {1..10}
 do
-    git add assignment5_$i.tcl
+    git add $i.tcl
+    git commit -m "Assignment Task $i"
+    git push origin main
 done
 
-git commit -m "Assignment Task 61 to 70"
-git push origin main
+
