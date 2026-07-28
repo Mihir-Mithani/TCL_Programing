@@ -1,3 +1,183 @@
+ commit 529836cd2359783ce9947d209db5429783df479e
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 17:14:36 2026 +0530
+
+    Utility files
+
+commit 52cd64cc19bcb157beecb28fec8fc707dffc4e8c
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 17:14:04 2026 +0530
+
+    Assignment Task 10
+
+commit 80b95f9228a0d5db7a651245287c4ccfc2b85746
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 17:14:02 2026 +0530
+
+    Assignment Task 9
+
+commit 8e97fb2a1fdeae0d315bf66085cfa770df1ee368
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 17:14:00 2026 +0530
+
+    Assignment Task 8
+
+commit 0f748f383b3d3a6a057a82d166cafd7ee7a52ea6
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 17:13:58 2026 +0530
+
+    Assignment Task 7
+
+commit bdc167bf3849d0a249a2805eb086d67aa75b48ac
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 17:13:56 2026 +0530
+
+    Assignment Task 6
+
+commit ac9638e10f7a5cad07bab8e787961dbc926a0e68
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 17:13:54 2026 +0530
+
+    Assignment Task 5
+
+commit 493d5648f0c656ee8cdbb4ca57e1f0f9d4da672b
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 17:13:52 2026 +0530
+
+    Assignment Task 4
+
+commit 3f942a8cfa3616aa23644e0b9ee92c2ce8da62a3
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 17:13:50 2026 +0530
+
+    Assignment Task 3
+
+commit 17f1df531ad0b3e2a2e13187014cb9a18d565251
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 12:07:23 2026 +0530
+
+    Renamed
+
+commit d5f1b36f3319e5cdc78d5ef3c018e8aabfcb0178
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 11:52:11 2026 +0530
+
+    Update
+
+commit c7dae613361bba462a2284aabb6afb86bffa8848
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 11:51:32 2026 +0530
+
+    utility file
+
+commit 82a55ae68911234ebfa1aae02594527e98d9a378
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 11:50:40 2026 +0530
+
+    Assignment Questions
+
+commit 7f203b5c9c9c353d3e8370c308d5147aa36b379d
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 11:49:51 2026 +0530
+
+    Assignment Task 61 to 70
+
+commit 49c8337b70161bc7da977c74a3687c0d761fd85c
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 11:49:26 2026 +0530
+
+    Assignment Task 51 to 60
+
+commit 3ca4b4cd9b4c160aba73b7b637471d279bbf69d0
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 11:49:06 2026 +0530
+
+    Assignment Task 41 to 50
+
+commit 51b9cba13ffa4cc70c1a387329c195e215bfacff
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 11:48:32 2026 +0530
+
+    Assignment Task 31 to 40
+
+commit 212c1d53975a5661c4272aff796bbc0411751ebb
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 11:47:43 2026 +0530
+
+    Assignment Task 21 to 30
+
+commit 927cc65fac49564b00adffcc57ada62be9598230
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 11:47:16 2026 +0530
+
+    Assignment Task 11 to 20
+
+commit 7bdff7f2800c759774495690c3214f9886edf2d0
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 11:46:43 2026 +0530
+
+    Assignment Task 1 10
+
+commit 32b69f8d6dfbedd5164fe2ff7ac88bc82397cc50
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Tue Jul 28 11:30:30 2026 +0530
+
+    Structure Changes
+
+commit e6ee01f3603f8b961f28412fcc57da397f6e1e5d
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Mon Jul 27 11:42:05 2026 +0530
+
+    Learning PPT
+
+commit b22654a2701d207d5cc98d91f1603df8c963f54b
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Mon Jul 27 11:36:06 2026 +0530
+
+    Add string_trim.tcl
+
+commit 29ee15934c94b741e0881317f22e9e9f45a0a89d
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Mon Jul 27 11:36:00 2026 +0530
+
+    Add string_tolower.tcl
+
+commit 517b7bd33da134a9f3d8fa7e61e91ad03c2191be
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Mon Jul 27 11:35:54 2026 +0530
+
+    Add string_range.tcl
+
+commit 4d354af7459bf04c600914d05a436cefde32b03a
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Mon Jul 27 11:35:04 2026 +0530
+
+    Add string_length.tcl
+
+commit 09866936e3a66e4ace9feb9db0ae4e335ff3cbad
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Mon Jul 27 11:34:55 2026 +0530
+
+    Add string_index.tcl
+
+commit 0ac786f4fbb469c72c80fd894e91933ca4a6e475
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Mon Jul 27 11:34:47 2026 +0530
+
+    Add string1.tcl
+
+commit 11ce905bdd21422f2489345ca5091401d1928fa2
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Mon Jul 27 11:06:34 2026 +0530
+
+    List in TCL
+
+commit 7c0baba5ede69bbf07788a11f4f7eaac8cd7e7d0
+Author: mihirmithani <mihirmithani123@gmail.com>
+Date:   Fri Jul 17 15:30:43 2026 +0530
+
+    Log Files
+
 commit e5eed80759b1e29371104a1f915ddb87f8d6b6f6
 Author: mihirmithani <mihirmithani123@gmail.com>
 Date:   Fri Jul 17 15:29:51 2026 +0530
