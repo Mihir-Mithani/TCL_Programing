@@ -10,6 +10,40 @@ A structured collection of TCL (Tool Command Language) scripts organized topic-b
 
 ```
 tcl/
+├── 01_introduction/
+│   └── baasic1.tcl
+├── 02_variables_and_data_types/
+│   └── var1.tcl
+├── 03_arithmetic_ops/
+│   └── expr.tcl
+├── 04_condition/
+│   └── if.tcl
+├── 04_loops/
+│   ├── for.tcl
+│   └── while.tcl
+├── 05_array/
+│   ├── array1.tcl
+│   └── array2.tcl
+├── 05_associative_array/
+│   ├── as_array.tcl
+│   └── as_array1.tcl
+├── 05_for_each/
+│   └── for_each1.tcl
+├── 06_element_search/
+│   ├── search.tcl
+│   └── search_associative.tcl
+├── 07_exec/
+│   ├── escape.tcl
+│   └── exec1.tcl
+├── 08_string/
+│   ├── string1.tcl
+│   ├── string_index.tcl
+│   ├── string_length.tcl
+│   ├── string_range.tcl
+│   ├── string_trim.tcl
+│   └── string_tolower.tcl
+├── 09_data_structure/
+│   └── list.tcl
 ├── 10_data_structure/
 │   └── lreplace.tcl
 ├── 12_file_handling/
@@ -28,6 +62,10 @@ tcl/
 │   └── template.tcl
 ├── 1.tcl - 68.tcl (various assignment files at root)
 ├── hello.tcl
+├── TCL_LEARNING_GUIDE.md
+├── TCL_Learning.pptx
+├── structure.sh
+├── plan.md
 └── README.md
 ```
 
@@ -72,10 +110,21 @@ tclsh 1.tcl
 
 | Topic | Directory / Files | Description |
 |-------|-------------------|-------------|
-| **Procedures/Functions** | `15_proc/` | Procedures with/without arguments, return values |
+| **Introduction** | `01_introduction/` | Basic TCL syntax, hello world |
+| **Variables & Data Types** | `02_variables_and_data_types/` | Variables, set, unset |
+| **Arithmetic Operations** | `03_arithmetic_ops/` | expr command, math operations |
+| **Conditionals** | `04_condition/` | if/else/switch statements |
+| **Loops** | `04_loops/` | for, while loops |
+| **Arrays** | `05_array/` | Array creation, access, iteration |
+| **Associative Arrays (Dict)** | `05_associative_array/` | Dictionary operations |
+| **Foreach Loop** | `05_for_each/` | foreach iteration |
+| **Element Search** | `06_element_search/` | Searching in arrays/lists |
+| **Exec Command** | `07_exec/` | External command execution, escaping |
+| **String Manipulation** | `08_string/` | String operations (length, index, range, trim, case) |
+| **Data Structures (Lists)** | `09_data_structure/`, `10_data_structure/` | List operations, lreplace |
 | **File Handling** | `12_file_handling/` | File read/write operations |
-| **Data Structures** | `10_data_structure/` | List manipulation (lreplace) |
-| **Assignments (1-68)** | `assignment/` + root | 68 practice assignments covering various topics |
+| **Procedures/Functions** | `15_proc/` | proc, args, return values |
+| **Assignments (1-68)** | `assignment/` + root | 68 practice assignments covering all topics |
 | **Utilities** | `assignment/*.sh` | Helper scripts for file management |
 
 ---
@@ -94,6 +143,7 @@ The repository contains **68 assignment scripts** (1.tcl through 68.tcl) coverin
 - And more...
 
 ### Running Assignments
+
 ```bash
 # Run a specific assignment
 tclsh assignment/1.tcl
@@ -118,11 +168,14 @@ The `assignment/` directory contains helper scripts:
 
 ---
 
-## 🎓 Reference
+## 📚 Learning Resources
 
-- 📺 Playlist: [TCL Tutorial: Basics to Advanced — VLSI Academy](https://www.youtube.com/playlist?list=PL1h5a0eaDD3rsGDFnVki_fFEtDWQfXjca)
-- 📖 Official Docs: [https://www.tcl.tk/doc/](https://www.tcl.tk/doc/)
-- 🌐 TCL Wiki: [https://wiki.tcl-lang.org/](https://wiki.tcl-lang.org/)
+- 📺 **Playlist:** [TCL Tutorial: Basics to Advanced — VLSI Academy](https://www.youtube.com/playlist?list=PL1h5a0eaDD3rsGDFnVki_fFEtDWQfXjca)
+- 📖 **Official Docs:** [https://www.tcl.tk/doc/](https://www.tcl.tk/doc/)
+- 🌐 **TCL Wiki:** [https://wiki.tcl-lang.org/](https://wiki.tcl-lang.org/)
+- 📄 **Detailed Guide:** [TCL_LEARNING_GUIDE.md](TCL_LEARNING_GUIDE.md)
+- 📊 **Presentation:** [TCL_Learning.pptx](TCL_Learning.pptx)
+- 📋 **Learning Plan:** [plan.md](plan.md)
 
 ---
 
