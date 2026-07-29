@@ -9,29 +9,26 @@ A structured collection of TCL (Tool Command Language) scripts organized topic-b
 ## 📁 Repository Structure
 
 ```
-TCL_Programing/
-├── 01_introduction
-│   └── baasic1.tcl
-├── 02_variables_and_data_types
-│   └── var1.tcl
-├── 03_arithmetic_ops
-│   └── expr.tcl
-├── 04_conition
-│   └── if.tcl
-├── 04_loops
-│   ├── for.tcl
-│   └── while.tcl
-├── 05_array
-│   ├── array1.tcl
-│   └── array2.tcl
-├── 05_associative_array
-│   ├── as_array.tcl
-│   └── as_array1.tcl
-├── 05_for_each
-│   └── for_each1.tcl
-├── README.md
-├── structure.sh
-└── plan.md
+tcl/
+├── 10_data_structure/
+│   └── lreplace.tcl
+├── 12_file_handling/
+│   ├── read.tcl
+│   └── write.tcl
+├── 15_proc/
+│   ├── fun1.tcl
+│   └── fun2.tcl
+├── assignment/
+│   ├── 1.tcl - 68.tcl (68 assignment files)
+│   ├── data.txt
+│   ├── files.sh
+│   ├── git_push.sh
+│   ├── rename.sh
+│   ├── run_file.sh
+│   └── template.tcl
+├── 1.tcl - 68.tcl (various assignment files at root)
+├── hello.tcl
+└── README.md
 ```
 
 ---
@@ -56,32 +53,68 @@ Download and install from [https://www.activestate.com/products/tcl/](https://ww
 ### Running a Script
 
 ```bash
-tclsh 01_introduction/baasic1.tcl
+tclsh 15_proc/fun1.tcl
 ```
 
-### Auto-generate the Folder Structure
+### Assignment Scripts
 
-A `structure.sh` script is included to recreate all folders (empty `.tcl` files are not created, only folders):
+There are 68 assignment scripts in the `assignment/` directory and at the root level. Run them with:
 
 ```bash
-chmod +x structure.sh
-./structure.sh
+tclsh assignment/1.tcl
+# or
+tclsh 1.tcl
 ```
 
 ---
 
 ## 📚 Topics Covered
 
-| # | Directory | Topic | Key Concepts |
-|---|-----------|-------|--------------|
-| 01 | `01_introduction` | Introduction | What is TCL, `tclsh`, first program (`puts`) |
-| 02 | `02_variables_and_data_types` | Variables & Data Types | `set`, string/integer variables, `$` substitution |
-| 03 | `03_arithmetic_ops` | Arithmetic Operations | `expr`, `+ - * /`, string-to-number conversion |
-| 04 | `04_conition` | Conditionals (`if`) | `if`, `if-else`, `if-elseif-else` |
-| 05 | `04_loops` | Loops | `while`, `for`, `break`, `continue` |
-| 06 | `05_array` | Arrays (Indexed) | `set arr(index)`, `array names/size/get`, iteration |
-| 07 | `05_associative_array` | Associative Arrays | String keys, `array names/set/get`, iteration |
-| 08 | `05_for_each` | `foreach` Loop | `foreach` loop over lists |
+| Topic | Directory / Files | Description |
+|-------|-------------------|-------------|
+| **Procedures/Functions** | `15_proc/` | Procedures with/without arguments, return values |
+| **File Handling** | `12_file_handling/` | File read/write operations |
+| **Data Structures** | `10_data_structure/` | List manipulation (lreplace) |
+| **Assignments (1-68)** | `assignment/` + root | 68 practice assignments covering various topics |
+| **Utilities** | `assignment/*.sh` | Helper scripts for file management |
+
+---
+
+## 📋 Assignment Files
+
+The repository contains **68 assignment scripts** (1.tcl through 68.tcl) covering various TCL topics:
+- Basic syntax and variables
+- Arithmetic operations
+- Conditionals (if/else)
+- Loops (for, while, foreach)
+- Arrays and lists
+- Procedures
+- File handling
+- String manipulation
+- And more...
+
+### Running Assignments
+```bash
+# Run a specific assignment
+tclsh assignment/1.tcl
+
+# Run all assignments using the helper script
+./assignment/run_file.sh
+```
+
+---
+
+## 🛠 Utility Scripts
+
+The `assignment/` directory contains helper scripts:
+
+| Script | Purpose |
+|--------|---------|
+| `run_file.sh` | Run assignment files |
+| `files.sh` | List files |
+| `rename.sh` | Rename files |
+| `git_push.sh` | Git push helper |
+| `template.tcl` | Template for new assignments |
 
 ---
 
