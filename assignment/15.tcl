@@ -4,9 +4,9 @@
 
 set myList {apple banana cherry date elderberry}
 
-puts "Original list: \$myList"
+puts "Original list: $myList"
 
 # Remove element at index 2 (cherry)
-set myList [lreplace \$myList 2 2]
+set myList [lreplace $myList 2 2]
 
-puts "After removing index 2: \$myList"
+puts "After removing index 2: $myList"

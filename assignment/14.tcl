@@ -4,9 +4,9 @@
 
 set myList {apple banana cherry}
 
-puts "Original list: \$myList"
+puts "Original list: $myList"
 
 # Append using lappend
 lappend myList date
 
-puts "Updated list:  \$myList"
+puts "Updated list: $myList"

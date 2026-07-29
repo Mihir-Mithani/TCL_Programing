@@ -4,8 +4,8 @@
 
 set myList {delta alpha epsilon beta gamma}
 
-puts "Original list: \$myList"
+puts "Original list: $myList"
 
-set sortedList [lsort \$myList]
+set sortedList [lsort $myList]
 
-puts "Sorted list:   \$sortedList"
+puts "Sorted list:   $sortedList"

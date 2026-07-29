@@ -5,4 +5,4 @@
 set myList {apple banana cherry date elderberry}
 
 puts "The list is: $myList"
-puts "The 3rd element (index 2) is: [lindex \$myList 2]"
+puts "The 3rd element (index 2) is: [lindex $myList 2]"
