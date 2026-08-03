@@ -1,0 +1,24 @@
+{
+  "name": "tcl_programing",
+  "version": "1.0.0",
+  "description": "A structured collection of Tcl programming examples, organized by topic (variables, control flow, loops, procedures, lists, arrays, dictionaries, file handling, regular expressions, error handling, packages/namespaces, and more).",
+  "main": "README.md",
+  "scripts": {
+    "structure": "bash structure.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mihir-Mithani/TCL_Programing.git"
+  },
+  "keywords": [
+    "tcl",
+    "tclsh",
+    "learning",
+    "examples",
+    "scripting"
+  ],
+  "author": "Mihir Mithani",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
