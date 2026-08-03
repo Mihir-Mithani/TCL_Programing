@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-for i in {26..35}
+for i in {41..57}
 do
     git add $i.tcl
     git commit -m "Assignment Task $i"
