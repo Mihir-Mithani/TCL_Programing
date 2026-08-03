@@ -1,24 +1,29 @@
 #Author : Mihir Mithani
 #Assignment
 
-proc find_word_in_file {filename search_word} {
-    if {![file exists $filename]} {
-        return -code error "Error: File '$filename' does not exist."
-    }
-
-    set file_handle [open $filename r]
-    set line_number 1
-    set matching_lines {}
-
-    while {[gets $file_handle line] != -1} {
-        if {[string match "*$search_word*" $line]} {
-            lappend matching_lines $line_number
+proc selection_sort {lst} {
+    set len [llength $lst]
+    
+    for {set i 0} {$i < [expr {$len - 1}]} {incr i} {
+        set min_idx $i
+        
+        for {set j [expr {$i + 1}]} {$j < $len} {incr j} {
+            if {[lindex $lst $j] < [lindex $lst $min_idx]} {
+                set min_idx $j
+            }
         }
-        incr line_number
+        
+        if {$min_idx != $i} {
+            set temp [lindex $lst $i]
+            lset lst $i [lindex $lst $min_idx]
+            lset lst $min_idx $temp
+        }
     }
-
-    close $file_handle
-    return $matching_lines
+    
+    return $lst
 }
 
-puts "[find_word_in_file "output.txt" "mihir"]"
+set input_list {64 25 12 22 11 90 33}
+
+puts "Original List : $input_list"
+puts "Sorted List   : [selection_sort $input_list]"
