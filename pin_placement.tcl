@@ -48,6 +48,7 @@ for {set i 0} {$i<4} {incr i} {
 
 puts "\n=====After Placement : =====\n"
 
+
 for {set i 0} {$i<20} {incr i} {
     puts "Pin$i : $pin($i)"
 }
