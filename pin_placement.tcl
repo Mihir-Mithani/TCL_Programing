@@ -1,12 +1,13 @@
 # Author : Mihir Mithani
 
+set log [open "Logs_Pin_Placement.txt" w+]
 for {set i 0} {$i<=24} {incr i} {
     set pin($i) {0 0}
 }
 
-puts "=====Before Placement : =====\n"
+puts $log "=====Before Placement : =====\n"
 for {set i 0} {$i<20} {incr i} {
-    puts "Pin$i : $pin($i)"
+    puts $log "Pin$i : $pin($i)"
 }
 
 for {set i 0} {$i<4} {incr i} {
@@ -46,10 +47,12 @@ for {set i 0} {$i<4} {incr i} {
     }
 }
 
-puts "\n=====After Placement : =====\n"
+puts $log "\n=====After Placement : =====\n"
 
 
 for {set i 0} {$i<20} {incr i} {
-    puts "Pin$i : $pin($i)"
+    puts $log "Pin$i : $pin($i)"
 }
 
+puts "Logs Saved at \"Logs_Pin_Placement.txt\""
+close $log
