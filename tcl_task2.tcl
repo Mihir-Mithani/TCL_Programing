@@ -13,7 +13,7 @@ while {[gets $fin line] >= 0} {
     if {[regexp {^\s*cell\s*\(([^\)]+)\)} $line -> cell_name]} {
         if {$current_cell ne ""} {
             puts $fout "$current_cell,$current_leakage"
-            set cells($current_cell) 0 ; #setting initial associative array value to 0
+            set cells($current_cell) 0 
         }
         set current_cell [string trim $cell_name]
         set current_leakage "N/A"
@@ -26,7 +26,7 @@ while {[gets $fin line] >= 0} {
 
 if {$current_cell ne ""} {
     puts $fout "$current_cell,$current_leakage"
-    set cells($current_cell) 0 ;# Added: register the last cell into the array
+    set cells($current_cell) 0 
 }
 
 close $fin
